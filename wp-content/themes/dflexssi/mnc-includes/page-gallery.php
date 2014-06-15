@@ -13,7 +13,7 @@
 		<div class="row block04">
 			<div class="col16">
 				<section>
-					<p>Home >> Gallery</p>
+					<p><?php if ( function_exists( 'breadcrumb_trail' ) ) breadcrumb_trail(array('show_browse' => false, 'separator' => '>>')); ?></p>
 				</section>
 			</div>
 		</div>

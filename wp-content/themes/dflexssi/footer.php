@@ -3,7 +3,7 @@
 <footer id="footer" role="contentinfo">
 	<div class="wrapfooter">
 		<p>
-			Copyright &copy; <?php echo date('Y') . ' <a href="#">' . get_bloginfo('name') . '</a>'; ?>
+			Copyright &copy; <?php echo date('Y') . ' <a href="' . get_bloginfo('url') . '">' . get_bloginfo('name') . '</a>'; ?>
 		</p>
 	</div>
 </footer>
