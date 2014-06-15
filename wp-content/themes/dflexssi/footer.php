@@ -1,11 +1,12 @@
 <div class="clear"></div>
 </div>
 <footer id="footer" role="contentinfo">
-<div id="copyright">
-<?php echo sprintf( __( '%1$s %2$s %3$s. All Rights Reserved.', 'dflexssi' ), '&copy;', date( 'Y' ), esc_html( get_bloginfo( 'name' ) ) ); echo sprintf( __( ' Theme By: %1$s.', 'dflexssi' ), '<a href="http://tidythemes.com/">TidyThemes</a>' ); ?>
-</div>
+	<div class="wrapfooter">
+		<p>
+			Copyright &copy; <?php echo date('Y') . ' <a href="#">' . get_bloginfo('name') . '</a>'; ?>
+		</p>
+	</div>
 </footer>
-</div>
 <?php wp_footer(); ?>
 </body>
 </html>
