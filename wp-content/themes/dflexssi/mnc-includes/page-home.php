@@ -31,7 +31,7 @@
 					</div>
 					<div class="content">
 						<p>E-commerce Online Store.</p>
-						<p class="more"><a class="button" href="http://www.dflexssi.com/">Get Started</a></p>
+						<p class="more"><a class="button" href="http://store.dflexssi.com/">Get Started</a></p>
 					</div>
 				</section>
 			</div>
@@ -55,7 +55,7 @@
 					</div>
 					<div class="content">
 						<p>Download this Price List if you are a System Integrator.</p>
-						<p class="more"><a class="button" href="#">Download Now</a></p>
+						<p class="more"><a class="button" href="<?php echo get_bloginfo(); ?>/download">Download Now</a></p>
 					</div>
 				</section>
 			</div>
@@ -88,7 +88,7 @@
 					<div class="content">
 						<img src="<?php echo get_bloginfo('template_url') . '/mnc-includes/'; ?>images/thumb2.jpg" />
 						<p>Philconstruct is where hundreds of the best suppliers from countries like Australia, China, Italy, South Korea, Singapore, Thailand, Turkey, the United Kingdom, the United States, and more choose to launch their products and technologies in the Philippine market.
-						<a class="more" href="blog.html">Read more</a></p>
+						<a class="more" href="<?php echo get_bloginfo('url'); ?>/blog">Read more</a></p>
 					</div>
 				</section>
 			</div>
@@ -98,7 +98,7 @@
 					<div class="content">
 						<img src="<?php echo get_bloginfo('template_url') . '/mnc-includes/'; ?>images/thumb1.jpg" />
 						<p>“Empowering Professionals Towards ASEAN Economic Community 2015”  is the theme of the 2nd Philippine Professional Summit held last October 15 to 17, 2013 at the Fiesta Pavilion of the Manila Hotel.
-						<a class="more" href="blog.html">Read more</a></p>
+						<a class="more" href="<?php echo get_bloginfo('url'); ?>/blog">Read more</a></p>
 					</div>
 				</section>
 			</div>
@@ -108,12 +108,11 @@
 					<div class="content">
 						<img src="<?php echo get_bloginfo('template_url') . '/mnc-includes/'; ?>images/thumb3.jpg" />
 						<p>DFLEX and VIVANCO have recently signed a contract for distribution partnership which enables DFLEX to market and distribute Vivanco Products for Structure Cabling solutions in the Philippines.
-						<a class="more" href="blog.html">Read more</a></p>
+						<a class="more" href="<?php echo get_bloginfo('url'); ?>/blog">Read more</a></p>
 					</div>
 				</section>
 			</div>
 		</div>
 	</div>
 </section>
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
