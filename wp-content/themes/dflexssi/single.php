@@ -21,7 +21,7 @@
 				<div class="info">Posted by <?php ucwords(the_author()); ?> | <?php comments_number(); ?> | <?php the_time('F j, Y'); ?></div>
 			</div>
 			<div class="content">
-				<?php the_post_thumbnail(); ?>show all the_date in wordpress
+				<?php the_post_thumbnail(); ?>
 				<p><?php the_content(); ?></p>
 
 			</div>
@@ -36,7 +36,7 @@
 					<p>D-Flex Strategic Solutions Inc.is the Sole Distributor of Vivanco Products in the Philippines.</p>
 				</div>
 		</section>
-
+		
 		<?php get_sidebar(); ?>
 
 		<section>

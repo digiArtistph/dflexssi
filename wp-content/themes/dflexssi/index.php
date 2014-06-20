@@ -21,7 +21,7 @@
 				<div class="info">Posted by <?php ucwords(the_author()); ?> | <?php comments_number(); ?> | <?php the_time('F j, Y'); ?></div>
 			</div>
 			<div class="content">
-				<?php the_post_thumbnail(); ?>show all the_date in wordpress
+				<?php the_post_thumbnail(); ?>
 				<p><?php the_content(); ?></p>
 
 			</div>
@@ -37,17 +37,7 @@
 				</div>
 		</section>
 
-		<section>
-			<div class="heading"><h2>Categories</h2></div>
-			<div class="content">
-				<ul>
-					<li><a href="http://vivanco.fusudesign.com/products/copper-cabling-system/">Copper Cabling Solutions</a></li>
-					<li><a href="http://vivanco.fusudesign.com/products/fibre-cabling-system/">Fiber Cabling</a></li>
-					<li><a href="http://vivanco.fusudesign.com/products/accessories/">Accessories</a></li>
-					<li><a href="http://vivanco.fusudesign.com/products/cabinets-racks/">Data Centre Solutions</a></li>
-				</ul>
-			</div>
-		</section>
+		<?php get_sidebar(); ?>
 
 		<section>
 			<div class="heading"><h2>Popular Post</h2></div>

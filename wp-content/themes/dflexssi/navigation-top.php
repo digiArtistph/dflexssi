@@ -5,4 +5,4 @@
 			 		);
 		wp_nav_menu($params);
 	}
-?>s
+?>

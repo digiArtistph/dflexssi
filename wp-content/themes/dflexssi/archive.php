@@ -13,5 +13,6 @@ else { _e( 'Archives', 'blankslate' ); }
 <?php endwhile; endif; ?>
 <?php get_template_part( 'nav', 'below' ); ?>
 </section>
+<h1>This is archive</h1>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

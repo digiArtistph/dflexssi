@@ -49,5 +49,4 @@
 			<div class="button-search"></div>
 			<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">
 		</div>
-
 </div>
